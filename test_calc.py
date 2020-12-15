@@ -1,5 +1,7 @@
 import pytest
+import allure
 from pythoncode.calculator import  Calculator
+
 import yaml
 def get_datas(algo):
     with open('./data.yml', encoding='utf-8') as f:
