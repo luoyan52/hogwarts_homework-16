@@ -11,9 +11,7 @@ def get_datas(algo):
 
 
 class TestCale:
-    def setup_method(self):
-        self.calc = Calculator()
-        print("开始计算")
+
 
     @pytest.mark.parametrize("a,b,expect",
                             get_datas('add')[0],
