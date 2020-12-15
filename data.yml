@@ -1,0 +1,40 @@
+add:
+    datas:
+      - [3,5,8]
+      - [-1,-2,-3]
+      - [100,200,300]
+    myid:
+      - "int"
+      - "minus1"
+      - "bigint"
+sub:
+    datas:
+      - [8, 5, 3]
+      - [-3, -2, -1]
+      - [300, 200, 100]
+      - [300, 0, 300]
+    myid:
+      - "int"
+      - "minus1"
+      - "bigint"
+      - "sub_zero"
+mul:
+   datas:
+      - [2, 2, 4]
+      - [-3, 1, -3]
+      - [300, 200, 60000]
+      - [4, 0, 0]
+   myid:
+      - "int"
+      - "minus1"
+      - "bigint"
+      - "mul_zero"
+div:
+   datas:
+      - [8,2,84
+      - [-6,-2,-3]
+      - [300,100,3]
+   myid:
+      - "int"
+      - "minus1"
+      - "bigint"
